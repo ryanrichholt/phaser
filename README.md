@@ -19,11 +19,16 @@ A bug was introduced in version 0.9.8 (12/16/16) and fixed in version 0.9.9.4 (0
 
 # Setup with pip
 
-Using virtual environments is preferred:
+This can be installed with pip:
+
+```
+$pip install --upgrade git+https://github.com/ryanrichholt/phaser.git
+```
+
+Using virtual environments is a [good idea](https://realpython.com/blog/python/python-virtual-environments-a-primer/):
 
 ```
 $ virtualenv --no-site-packages --python=python2.7 phaser-venv
 $ source phaser-venv/bin/activate
-$ pip install git+https://github.com/ryanrichholt/phaser.git
-
+$ pip install --upgrade git+https://github.com/ryanrichholt/phaser.git
 ```
