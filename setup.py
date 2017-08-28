@@ -10,6 +10,7 @@ setup(
         'setuptools>=18.0',
 	'Cython',
 	'scipy',
+	'pysam',
     ],
 
   entry_points = {
