@@ -27,7 +27,7 @@ setup(
   ext_modules=[
         Extension(
             'mylib',
-            sources=['phaser/read_variant_map.pyx'],
+            sources=['phaser/read_variant_map.py'],
         ),
     ],
 )
