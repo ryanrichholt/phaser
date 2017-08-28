@@ -13,6 +13,8 @@ setup(
   install_requires = [
 	'scipy',
 	'pysam',
+	'pyvcf',
+        'intervaltree',
   ],
   entry_points = {
     'console_scripts': [
