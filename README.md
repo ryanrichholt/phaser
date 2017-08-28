@@ -19,9 +19,6 @@ A bug was introduced in version 0.9.8 (12/16/16) and fixed in version 0.9.9.4 (0
 
 # Setup with pip
 
-SciPy is throwing errors when trying to install as a setuptools dependency. So for now, I'm just installing SciPy
-separately before installing phaser.
-
 Using virtual environments is preferred:
 
 ```
