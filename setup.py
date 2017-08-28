@@ -5,13 +5,15 @@ setup(
   name = 'phaser',
   description = 'phASER Read Variant Mapper',
   packages = ['phaser', 'phaser_annotate', 'phaser_gene_ae'],
-  setup_requires=[
+  setup_requires = [
         # Setuptools 18.0 properly handles Cython extensions.
         'setuptools>=18.0',
-	'Cython',
-	'scipy',
+	'Cython'
     ],
-
+  install_requires = [
+	'scipy',
+	'pysam',
+  ],
   entry_points = {
     'console_scripts': [
         'phaser = phaser.phaser:main',
